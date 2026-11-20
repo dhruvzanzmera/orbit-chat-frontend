@@ -3,11 +3,7 @@
 .sidebar, .chat-panel { background: #fff; border: 1px solid #e9edf2; border-radius: 15px; }
 .sidebar { position: relative; display: flex; flex: 0 0 320px; flex-direction: column; padding: 21px 14px 12px; min-height: 0; }
 .brand-row { display: flex; align-items: center; gap: 10px; padding: 0 9px 23px; }
-.brand-mark { width: 27px; height: 27px; display: grid; grid-template-columns: 1fr 1fr; gap: 3px; transform: rotate(-8deg); }
-.brand-mark span { border-radius: 4px 4px 2px 4px; background: #6979e8; }
-.brand-mark span:nth-child(2) { background: #a3acf7; border-radius: 4px 4px 4px 2px; }
-.brand-mark span:nth-child(3) { background: #bac2fb; border-radius: 4px 2px 4px 4px; }
-.brand-mark span:nth-child(4) { background: #818fec; border-radius: 2px 4px 4px 4px; }
+.brand-mark { width: 27px; height: 27px; display: block; flex: 0 0 auto; object-fit: contain; }
 .brand-lockup { display: inline-flex; align-items: center; gap: 10px; }
 .brand-name { font-size: 23px; font-weight: 750; letter-spacing: -1.2px; color: #282c3a; }
 .brand-period { color: #7c89ed; }
@@ -155,10 +151,6 @@ kbd { padding: 2px 4px; border: 1px solid #e9ebef; border-radius: 4px; backgroun
 .ring-two { width: 236px; height: 172px; transform: translate(-50%,-50%) rotate(31deg); }
 .art-center { position: absolute; top: 50%; left: 50%; display: grid; width: 71px; height: 71px; place-items: center; border: 7px solid #fff; border-radius: 23px; background: #7783e5; box-shadow: 0 10px 35px #7683e442; transform: translate(-50%,-50%) rotate(-8deg); }
 .art-center .brand-mark { width: 31px; height: 31px; }
-.art-center .brand-mark span { background: #fff; }
-.art-center .brand-mark span:nth-child(2) { background: #d9ddff; }
-.art-center .brand-mark span:nth-child(3) { background: #bec5ff; }
-.art-center .brand-mark span:nth-child(4) { background: #eceeff; }
 .art-chat { position: absolute; z-index: 1; display: flex; align-items: center; gap: 8px; padding: 9px 12px 9px 8px; border: 1px solid #eceef7; border-radius: 9px; background: #fff; box-shadow: 0 8px 25px #3e477c0e; text-align: left; }
 .art-chat-one { top: 19px; left: 0; }
 .art-chat-two { right: -6px; bottom: 20px; }

@@ -1,5 +1,5 @@
 function BrandMark() {
-  return <span className="brand-mark" aria-hidden="true"><span /><span /><span /><span /></span>
+  return <img className="brand-mark" src="/favicon.svg" alt="" aria-hidden="true" />
 }
 
 function Brand({ className = '' }) {
